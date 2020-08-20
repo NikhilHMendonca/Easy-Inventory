@@ -1,6 +1,8 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+// import jsQR from "jsqr";
+import Scanner from './Scanner.js'
 
 function App() {
   return (
@@ -10,14 +12,15 @@ function App() {
         <p>
           Easy Inventory
         </p>
-        <a
+        <Scanner />
+        {/* <a
           className="App-link"
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
         >
           Learn React
-        </a>
+        </a> */}
       </header>
     </div>
   );
